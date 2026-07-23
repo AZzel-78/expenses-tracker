@@ -1,0 +1,42 @@
+a {
+  all: unset;
+  padding-top: 0.2rem;
+}
+
+a:hover {
+  all: unset;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-family: "Iceberg";
+  font-size: 3rem;
+  color: #969696;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.up-down {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+button {
+  all: unset;
+  margin: 0;
+  background: "none";
+  border: "none";
+  cursor: "pointer";
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  border-radius: "50%";
+  transition: "background-color 0.2s";
+}
+
+.btnUpDown {
+  height: 32px;
+  width: 32px;
+}
