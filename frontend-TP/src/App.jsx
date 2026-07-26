@@ -14,9 +14,9 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/transactions" elements={<Transactions />} />
-          <Route path="/limit" elements={<Limit />} />
-          <Route path="/settings" elements={<Settings />} />
+          <Route path="/transactions" element={<Transactions />} />
+          <Route path="/limit" element={<Limit />} />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
       </main>
     </div>

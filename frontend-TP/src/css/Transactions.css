@@ -1,0 +1,75 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 0 1rem;
+}
+
+button.btn:hover {
+  border-color: #53d7f2;
+}
+
+.transactions-content {
+  background-color: #171717;
+  width: 100%;
+  padding: 1rem;
+}
+
+.expenses-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-headers {
+  background-color: #3b3b3b;
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.list-items {
+  background-color: #5b5b5b;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.btn-list {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 0 1rem;
+}
+.btn-list:hover {
+  border-color: #53d7f2;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
