@@ -2,6 +2,7 @@ import ExpensesCard from "../components/ExpensesCard";
 import { useState } from "react";
 import "../css/Dashboard.css";
 import DateSpecifier from "../components/DateSpecifier";
+import IngestionHub from "../components/IngestionHub"
 import LineGraph from "../components/LineGragh";
 import { ShoppingBag, TrendingUp, DollarSign } from "lucide-react";
 
@@ -71,6 +72,7 @@ function Home() {
   return (
     <div className="dashboard">
       <DateSpecifier />
+      <IngestionHub />
       <LineGraph expensesData={MOCK_DAILY_EXPENSES} />
       <div className="grouped-expenses-grid">
         <div

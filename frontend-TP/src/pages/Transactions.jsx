@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DateSpecifier from "../components/DateSpecifier";
+import IngestionHub from "../components/IngestionHub"
 import "../css/Transactions.css";
 
 function Transactions() {
@@ -81,6 +82,7 @@ function Transactions() {
           + Add Expense
         </button>
       </header>
+      <IngestionHub />
       <main className="transactions-content">
         <table className="expenses-list">
           <thead>
